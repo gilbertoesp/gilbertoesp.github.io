@@ -6,40 +6,62 @@
 html{
     font-size: 62.5%;  /* 1rem = 10px */
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 /* . . .  */
-.navegacion{
-    width: 100%;
-    display: inline-block;
-    padding: 0 20px;
-    margin-left: 80px;
-}
 .navegacion ul{
-    list-style: none;
-}
-.navegacion__item{
-    text-decoration: none;
-    text-align: center;
-    font-size: 400;
-    line-height: 2.4rem;
-}
-/* . . .  */
-main{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+.navegacion__item{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.navegacion__item a{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: yellow;
+}
+
+
+/* . . .  */
 .contenido{
+    position: relative;
     width: 100%;
 }
-.contenido__foto{
-    position: absolute;
-    background-image: url(../assets/afro.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.contenido__portada{
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+    align-content: center;
+}
+.portada__foto img{
     width: 120px;
     height: auto;
-    border-radius: 16px;
+    margin: 0 auto;
+    border: 1rem solid yellow;
 }
+
+.portada__titulo{
+    display: inline-block;
+}
+.portada__titulo h1{
+    font-size: 2.4rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+    color: yellow;
+}
+
+.portada__titulo p{
+    line-height: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: yellow;
+}
+
 /* . . .  */

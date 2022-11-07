@@ -22,28 +22,37 @@
     <header class="navegacion">
         <span></span>
         <ul>
-            <li><a href="#acerca" class="navegacion__item">Acerca</a></li>
-            <li><a href="#contacto" class="navegacion__item">Contacto</a></li>
+            <li class="navegacion__item"><a href="#acerca">Acerca</a></li>
+            <li class="navegacion__item"><a href="#contacto">Contacto</a></li>
         </ul>
     </header>
     <main class="contenido">
-        <div class="contenido__foto"><div>
-        <section class="contenido__titulo">
-            <h1>Científico en computación.</h1>
-            <p>Gilberto Espinoza Maciel</p>
-        </section>
-        <section class="contenido__lista-puntos">
-            <h2>Key points.</h2>
-            <ul>
-                <li>Manejo de tablas & datos</li>
-                <li>Principios de cyberseguridad</li>
-                <li>Creación & expresión web</li>
+        <div class="contenido__portada">
+            <div class="portada__foto">
+                <img src="./assets/profile.jpg" alt="">
+            </div>
+                <div class="portada__titulo">
+                    <h1>Científico en computación.</h1>
+                    <p>Gilberto Espinoza Maciel</p>
+                </div>
+        </div>
+        <section class="contenido__puntos-clave">
+            <div class="puntos-clave__titulo">
+                <h2>Puntos clave.</h2>
+                <p></p>
+            </div>
+            <ul class="puntos-clave__lista">
+                <li>Manejo de tablas & datos.</li>
+                <li>Auxiliar en cyberseguridad.</li>
+                <li>Asesoría en Web3.</li>
             </ul>
         </section>
         <section id="acerca" class="contenido__perfil">
-            <div>
-                <button class="perfil__enlace">Github</button> <!--Github-->
-                <button class="perfil__enlace">LinkedIn</button> <!--Linkedin-->
+            <div class="perfil__lateral">
+                <button class="lateral__enlace">Github</button> <!--Github-->
+            </div>
+            <div class="perfil_lateral">
+                <button class="lateral__enlace">LinkedIn</button> <!--Linkedin-->
             </div>
         </section>
     </main>
