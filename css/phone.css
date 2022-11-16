@@ -8,7 +8,6 @@
     --negro-mora: #252422;
     --flama: #eb5e25;
 
-
 }
 
 * {
@@ -19,73 +18,95 @@
 html{
     font-size: 62.5%;  /* 1rem = 10px */
     font-family: 'Open Sans', sans-serif;
-    /* Algunas ediciones a toda la hoja */
-    background-color: var(--plata-palido);
 }
 
 /* . . .  */
+.navegacion{
+    background-color: var(--negro-mora);
+}
+
+.navegacion__contenedor{
+    height: 48px;
+    padding-top: 16px;
+}
+
 .navegacion__lista{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row-reverse;
     list-style: none;
-    padding-top: 1vh;
 }
 
 .navegacion__item a{
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     text-decoration: none;
-    color: var(--negro-mora);
+    font-weight: bold;
+    color: var(--plata-palido);
+    padding-right: 16px;
 }
-
 
 /* . . .  */
 .contenido{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    /* Algunas ediciones a toda la hoja */
+    background-color: var(--blanco-floral);
 }
+/* . . .  */
 
 .contenido__portada{
-    width: 100%;
-    height: 40%;
-    text-align: center;
+    height: 60vh;
+    padding: 12px;
 }
+
+.portada__contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .portada__foto{
+    width: 40%;
     padding: 8px;
+    margin: 0 auto;
 }
 
 .portada__foto img{
-    width: 120px;
+    width: 132px;
     height: auto;
     margin: 0 auto;
-    border: 0.1rem solid var(--flama);
 }
 
 .portada__titulo{
+    padding-top: 32px;
     width: 100%;
-    align-items: center;
+    text-align: center;
 }
 
 .portada__titulo h1{
-    padding-top: 32px;
-    font-size: 2.4rem;
-    line-height: 1.6rem;
+    font-size: 4.2rem;
+    line-height: 5.2rem;
     font-weight: bold;
     color: var(--negro-mora);
 }
 
 .portada__titulo p{
     padding-top: 16px;
-    line-height: 1.6rem;
-    font-size: 1.8rem;
+    line-height: 3.2rem;
+    font-size: 2.4rem;
     font-weight: 400;
     font-style: italic;
     color: var(--negro-mora);
 }
 
 /* . . .  */
+
+.contenido__red-relampago{
+    display: block;
+    height: 20vh;
+}
+/* . . .  */
+
 .contenido__puntos-clave{
     width: 100%;
     margin-top: 42px;

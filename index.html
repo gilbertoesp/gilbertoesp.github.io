@@ -20,34 +20,42 @@
 </head>
 <body>
     <header class="navegacion">
-        <span></span>
-        <ul class="navegacion__lista">
-            <li class="navegacion__item"><a href="#acerca">Acerca</a></li>
-            <li class="navegacion__item"><a href="#contacto">Contacto</a></li>
-        </ul>
+        <div class="navegacion__contenedor">
+            <span class="navegacion__logo"></span>
+            <ul class="navegacion__lista">
+                <li class="navegacion__item"><a href="#acerca">Acerca</a></li>
+                <li class="navegacion__item"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
     </header>
     <main class="contenido">
-        <div class="contenido__portada">
-            <div class="portada__foto">
-                <img src="./assets/profile.jpg" alt="">
-            </div>
-            <div class="portada__titulo">
-                <h1>Científico en computación.</h1>
-                <p>Gilberto Espinoza Maciel</p>
-            </div>
-        </div>
-        <section class="contenido__puntos-clave">
-            <div class="puntos-clave">
-                <div class="puntos-clave__titulo">
-                    <h2>Puntos clave.</h2>
-                    <p></p>
+        <section class="contenido__portada">
+            <div class="portada__contenedor">
+                <div class="portada__titulo">
+                    <h1>Científico en computación.</h1>
+                    <p>Gilberto Espinoza Maciel</p>
                 </div>
-                <ul class="puntos-clave__lista">
-                    <li>Manejo de tablas & datos.</li>
-                    <li>Auxiliar en cyberseguridad.</li>
-                    <li>Asesoría en Web3.</li>
-                </ul>
+                <div class="portada__foto">
+                    <img src="./assets/profile.jpg" alt="">
+                </div>
             </div>
+        </section>
+        <div class="contenido__red-relampago"></div>
+        <section class="contenido__puntos-clave">
+            <h2>Herramientas</h2>
+            <div class="puntos-clave__contenedor">
+                <div class="punto-clave__contenedor">
+                    <div class="punto-clave__imagen-contenedor">
+                        <img src="#" alt="Una foto que refleja que tan proficiente soy en esta habilidad">
+                    </div>
+                    <div class="punto-clave__descripcion">
+                        <h3>Tablas. Datos e información</h3>
+                        <p>Manipulación de formatos .csv con Numpy & Pandas para inferencia estadística. </p>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <!-- Refrencias slider -->
         </section>
         <section id="acerca" class="contenido__perfil">
             <!--Github-->
@@ -55,8 +63,20 @@
         </section>
     </main>
     <footer id="contacto">
-       <p>🇲🇽  52 637 130 81 80</p>
-       <p>gilbertoesp.mx@proton.me</p>
+       <!-- <p>🇲🇽  52 637 130 81 80</p>
+       <p>gilbertoesp.mx@proton.me</p> -->
+    <div class="contacto__contenedor">
+        <div class="contacto__invitacion">
+            <!-- Invitacion a coloborar -->
+            <p class="invitacion__titulo">'Lo opuesto de guerra no es paz, si no CREACIÓN'</p>
+       </div>
+       <div class="contacto__formulario">
+            <p class="formulario__titulo">Contacto</p>
+            <!-- Formulario -->
+            <div></div>
+       </div>
+    </div>
+
     </footer>
 </body>
 </html>
