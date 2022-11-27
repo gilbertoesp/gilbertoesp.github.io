@@ -56,7 +56,7 @@ html{
 /* . . .  */
 
 .contenido__portada{
-    height: 60vh;
+    height: 80vh;
     padding: 12px;
 }
 
@@ -66,7 +66,7 @@ html{
 }
 
 .portada__foto{
-    width: 40%;
+    width: fit-content;
     padding: 8px;
     margin: 0 auto;
 }
@@ -75,10 +75,11 @@ html{
     width: 132px;
     height: auto;
     margin: 0 auto;
+    border-radius: 2px;
 }
 
 .portada__titulo{
-    padding-top: 32px;
+    padding-top: 64px;
     width: 100%;
     text-align: center;
 }
@@ -91,7 +92,8 @@ html{
 }
 
 .portada__titulo p{
-    padding-top: 16px;
+    padding-top: 32px;
+    padding-bottom: 64px;
     line-height: 3.2rem;
     font-size: 2.4rem;
     font-weight: 400;
@@ -99,11 +101,17 @@ html{
     color: var(--negro-mora);
 }
 
-/* . . .  */
-
-.contenido__red-relampago{
-    display: block;
-    height: 20vh;
+.contenido__circulo{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 300px;
+    left: 165px;
+    border-radius: 50%;
+    background-color: var(--flama);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* . . .  */
 
@@ -113,28 +121,37 @@ html{
     font-size: 1.1rem;
     line-height: 1.6rem;
 }
-.puntos-clave{
-    width: 60%;
-    margin: 0 auto;
-}
-.puntos-clave__titulo h2{
+.contenido__puntos-clave h2{
     text-align: center;
     color: var(--negro-mora);
-    font-size: 1.6rem;
-    line-height: 1.6rem;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
     font-weight: bold;
 }
 
-.puntos-clave__lista{
-    padding-top: 16px;
-    list-style: none;
+.puntos-clave__contenedor{
+    width: 75%;
+    margin: 0 auto;
 }
 
-.puntos-clave__lista li{
-    padding-top: 4px;
-    font-size: 1.4rem;
-    color: var(--negro-mora);
-    line-height: 1.6rem;
+.punto-clave__contenedor{
+    margin: 5px;
+    padding: 5px;
+}
+
+.punto-clave__imagen-contenedor{
+    margin: 5px;
+    padding: 5px;
+}
+
+.punto-clave__imagen-contenedor img{
+    height: 25px;
+    width: auto;
+}
+
+.punto-clave__descripcion{
+    margin: 5px;
+    padding: 5px;
 }
 
 /* . . . */
