@@ -1,0 +1,20 @@
+.contenido__portada{
+    height: 50vh;
+    padding-top: 64px;
+}
+.portada__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portada__titulo{
+    width: 70%;
+    order: 2;
+}
+.portada__foto{
+    width: 30%;
+}
+/* . . . */
+.logos__platzi{
+    height: 120px;
+    margin: 0 12px;
+}
