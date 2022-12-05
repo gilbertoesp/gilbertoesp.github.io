@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=cd , initial-scale=1.0">
     <link rel="stylesheet" href="./css/phone.css">
-    <!--     <link 
+    <link 
         rel="stylesheet"
-        href="./tablet.css"
+        href="./css/tablet.css"
         media="screen and (min-width: 600px)">
     <link 
         rel="stylesheet"
-        href="./desktop.css"
-        media="screen and (min-width: 800px)"> -->
+        href="./css/desktop.css"
+        media="screen and (min-width: 800px)">
     <!-- Fuentes.  -->
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
     
@@ -23,8 +23,8 @@
         <div class="navegacion__contenedor">
             <span class="navegacion__logo"></span>
             <ul class="navegacion__lista">
-                <li class="navegacion__item"><a href="#acerca">Acerca</a></li>
-                <li class="navegacion__item"><a href="#contacto">Contacto</a></li>
+                <li class="navegacion__item"><a href="./assets/curriculumVerde.pdf">Acerca</a></li>
+                <li class="navegacion__item"><a href="mailto:gilbertoesp.mx@proton.me">Contacto</a></li>
             </ul>
         </div>
     </header>
@@ -42,37 +42,63 @@
             <!-- <div class="contenido__circulo"></div>  -->
         </section>
         <section id="logos" class="contenido__logos">
+            <h2>Perfil</h2>
             <div class="logos__contenedor">
                 <div class="logos__logo">
                     <!--Github-->
-                    <img src="./assets/github_logo.png" alt="Logo de Github">
+                    <a href="http://github.com/gilbertoesp">
+                        <img src="./assets/github_logo.png" alt="Gilberto's github">
+                    </a>
                 </div>
                 <div class="logos__logo">
                     <!--Linkedin--> 
-                    <img src="./assets/linkedin-logo-1.png" alt="Logo de Github">
+                    <a href="https://www.linkedin.com/in/gilberto-espinoza-05a17a154/">
+                        <img src="./assets/linkedin-logo-1.png" alt="Gilberto's linkedin">
+                    </a>
                 </div>                
-                <div class="logos__logo">
+                <div class="logos__platzi">
                     <!-- Platzi -->
-                    <img src="./assets/platzi-logo.png" alt="Logo de Github">
+                    <a href="https://platzi.com/p/gilbertoesp/">
+                        <img src="./assets/platzi-logo.png" alt="Gilberto's Platzi">
+                    </a>
                 </div>
+            </div>
+        </section>
+        <section class="contenido__portafolio">
+            <div class="portafolio__titulo">
+                <h2>Portafolio</h2>
+                <p>Don't trust, verify</p>
+            </div>
+            <div class="portafolio__cuadricula">
+                <!-- Proyecto -->
+                <article class="cuadricula__proyecto">
+                    <a href="https://gilbertoesp.github.io/batatabit/">
+                        <img src="./assets/batatabit.png" alt="Foto de muestra para Batatabit">
+                    </a>
+                    <div class="proyecto__info">
+                        <h3>Batatabit</h3>
+                        <p>Demo landing de un centro cambiario de criptomonedas</p>
+                        <div class="info__enlaces">
+                            <a href="https://github.com/gilbertoesp/batatabit">Ver código</a><a href="https://gilbertoesp.github.io/batatabit/">Ver en línea</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Seguir agregando proyectos. -->
             </div>
         </section>
     </main>
     <footer id="contacto">
        <!-- <p>🇲🇽  52 637 130 81 80</p>
        <p>gilbertoesp.mx@proton.me</p> -->
-    <div class="contacto__contenedor">
-        <div class="contacto__invitacion">
-            <!-- Invitacion a coloborar -->
-            <p class="invitacion__titulo">'Lo opuesto de guerra no es paz, si no CREACIÓN'</p>
-       </div>
-       <div class="contacto__formulario">
-            <p class="formulario__titulo">Contacto</p>
-            <!-- Formulario -->
-            <div></div>
-       </div>
-    </div>
-
+       <section class="izquierda">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/gilberto-espinoza-05a17a154/">LinkedIn</a></li>
+                <li><a href="http://github.com/gilbertoesp">Github</a></li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <p>2022-2023 <br> México</p>
+        </section>
     </footer>
 </body>
 </html>
