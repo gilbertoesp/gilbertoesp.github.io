@@ -51,73 +51,42 @@ html{
 }
 
 /* . . .  */
-.contenido{
-    /* Algunas ediciones a toda la hoja */
-    width: 100%;
+.main__container{
     background-color: var(--blanco-floral);
 }
 /* . . .  */
-
-.contenido__portada{
-    height: 70vh;
-    padding: 12px;
+.front__container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
 }
 
-.portada__contenedor{
-    width: 80%;
-    margin: 0 auto;
+.front__image_container{
+    width: 32%;
+    max-width: 150px;
 }
-
-.portada__foto{
-    width: 200px;
-    padding: 8px;
-    margin: 0 auto;
-}
-
-.portada__foto img{
-    margin: 0 auto;
-    border-radius: 2px;
+.front__image_container img{
     max-inline-size: 100%;
     block-size: auto;
     inline-size: 100%;
     border-radius: 8px;
 }
 
-.portada__titulo{
-    padding-top: 64px;
-    width: 100%;
-    text-align: center;
+.front__container article{
+    font-size: medium;
+    text-align: justify;
+}
+.front__intro_container{
+    width: 54%;
+    max-width: 280px;
 }
 
-.portada__titulo h1{
-    font-size: 4.2rem;
-    line-height: 5.2rem;
-    font-weight: bold;
-    color: var(--negro-mora);
+.front__sobre_mi_container{
+    max-width: 450px ;
 }
 
-.portada__titulo p{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    line-height: 3.2rem;
-    font-size: 2.6rem;
-    font-weight: 400;
-    font-style: italic;
-    color: var(--negro-mora);
-}
-
-.contenido__circulo{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    top: 300px;
-    left: 165px;
-    border-radius: 50%;
-    background-color: var(--flama);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 /* . . .  */
 .contenido__logos{
     width: 100%;
