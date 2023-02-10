@@ -8,6 +8,11 @@
     --negro-mora: #252422;
     --flama: #eb5e25;
 
+    /* background: rgb(238,86,34);
+    background: linear-gradient(270deg, rgba(238,86,34,1) 25%, rgba(208,206,194,1) 90%); */
+
+    /* https://fonts.google.com/share?selection.family=Manrope:wght@200;400;600 */
+
 }
 
 * {
@@ -17,7 +22,7 @@
 }
 html{
     font-size: 62.5%;  /* 1rem = 10px */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 /* . . .  */
@@ -245,4 +250,3 @@ footer .izquierda ul, footer .derecha ul{
     text-decoration: none;
     color: var(--plata-palido);
 }
-
