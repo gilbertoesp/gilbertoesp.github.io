@@ -25,197 +25,70 @@ html{
     font-family: 'Manrope', sans-serif;
 }
 
-/* . . .  */
-.navegacion{
+body{
+    background-color: var(--negro-oliva);
+}
+
+header{
     background-color: var(--negro-mora);
 }
 
-.navegacion__contenedor{
-    height: 48px;
-    padding-top: 16px;
-}
-
-.navegacion__lista{
-    display: flex;
-    flex-direction: row-reverse;
-    list-style: none;
-}
-
-.navegacion__item a{
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--plata-palido);
-    padding-right: 16px;
-}
-
-/* . . .  */
-.main__container{
-    background-color: var(--blanco-floral);
-}
-/* . . .  */
-.front__container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
-    gap: 10px;
-}
-
-.front__image_container{
-    width: 32%;
-    max-width: 150px;
-}
-.front__image_container img{
-    max-inline-size: 100%;
-    block-size: auto;
-    inline-size: 100%;
-    border-radius: 8px;
-}
-
-.front__container article{
-    font-size: medium;
-    text-align: justify;
-}
-.front__intro_container{
-    width: 54%;
-    max-width: 280px;
-}
-
-.front__sobre_mi_container{
-    max-width: 450px ;
-}
-
-/* . . .  */
-.contenido__logos{
-    width: 100%;
-    margin-bottom: 32px;
-    text-align: center;
-}
-.contenido__logos h2{
-    font-weight: bold;
-    color: var(--negro-mora);
-    line-height: 3.2rem;
-    font-size: 2.6rem;
-    margin-bottom: 24px;
-}
-.logos__contenedor{
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.logos__logo{
-    width: 50%;
-    max-width: 120px;
-    margin: 0 12px;
-}
-.logos__platzi{
-    width: 100%;
-    max-width: 300px;
-    margin-top: 12px;
-}
-
-.logos__logo img, .logos__platzi img{
-    max-inline-size: 100%;
-    block-size: auto;
-    inline-size: 100%;
-}
-/* . . . */
-.contenido__portafolio{
-    width: 100%;
-}
-.portafolio__titulo{
-    text-align: center;
-    margin-bottom: 24px;
-}
-.portafolio__titulo h2{
-    font-weight: bold;
-    color: var(--negro-mora);
-    line-height: 3.2rem;
-    font-size: 2.6rem;
-}
-.portafolio__titulo p{
-    line-height: 3.2rem;
-    font-size: 2rem;
-    font-weight: 400;
-    font-style: italic;
-    color: var(--negro-mora);
-}
-.portafolio__cuadricula{
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-.cuadricula__proyecto{
-    width: 100%;
-    margin-bottom: 18px;
-
-}
-.cuadricula__proyecto img{
-    max-inline-size: 100%;
-    block-size: auto;
-    inline-size: 100%;
-    border-radius: 8px;
-}
-.proyecto__info{
+nav{
+    padding: 25px;
     text-align: right;
 }
-.proyecto__info h3{
-    font-weight: bold;
-    color: var(--negro-mora);
-    line-height: 2.2rem;
-    font-size: 2.2rem;
-    margin-bottom: 8px;
-}
-.proyecto__info p{
-    line-height: 1.8rem;
-    font-size: 1.6rem;
-    font-weight: 400;
-    font-style: italic;
-    color: var(--negro-mora);
-    margin-bottom: 4px;
-}
-.info__enlaces{
-    display: flex;
-    justify-content: space-evenly;
-}
-.info__enlaces a{
+nav a{
+    color: var(--plata-palido);
     text-decoration: none;
-    line-height: 1.8rem;
-    font-size: 1.6rem;
-    color: var(--flama);
+    padding-left: 8px;
+    font-size: 1.1rem;
 }
-/* . . .  */
-footer{
-    display: flex;
-    width: 100%;
-    height: 120px;
-    background-color: var(--negro-mora);
-}
-footer section{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
+nav a:hover{
+    text-decoration: underline;
 }
 
-footer .izquierda ul, footer .derecha ul{
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    list-style: none;
+main{
+    height: 3000px;
 }
 
-.izquierda a{
-    text-decoration: none;
+#hola__mundo{
+    padding-top: 50%;
+    padding-bottom: 50%;
+    padding-left: 42px;
+}
+
+#hola__mundo h1{
+    font-size: 3rem;
     color: var(--blanco-floral);
 }
-.derecha p{
-    text-decoration: none;
+
+#whoami{
+    padding-top: 40%;
+    padding-bottom: 40%;
+    padding-left: 42px;
+    text-align: justify;
     color: var(--plata-palido);
+    font-size: 1.2rem;
+    width: 88%;
+}
+#whoami strong{
+    color: var(--blanco-floral);
+}
+
+#whoami div{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#button__show_cv{
+    padding: 4px 8px;
+    border-radius: 42px;
+    border: var(--plata-palido) solid 1px;
+    color: var(--plata-palido);
+    background-color: var(--negro-oliva);
+}
+
+footer{
+    background-color: var(--negro-mora);
+    height: 80px;
 }
