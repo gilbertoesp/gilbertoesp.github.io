@@ -47,13 +47,9 @@ nav a:hover{
     text-decoration: underline;
 }
 
-main{
-    height: 3000px;
-}
-
 #hola__mundo{
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding-top: 40vh;
+    padding-bottom: 42vh;
     padding-left: 42px;
 }
 
@@ -63,7 +59,6 @@ main{
 }
 
 #whoami{
-    padding-top: 40%;
     padding-bottom: 40%;
     padding-left: 42px;
     text-align: justify;
@@ -88,7 +83,136 @@ main{
     background-color: var(--negro-oliva);
 }
 
+#stack{
+    margin-bottom: 42px;
+}
+
+#stack h2{
+    color: var(--plata-palido);
+    font-size: 2.3rem;
+    padding-left: 42px;
+}
+
+#stack__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+
+
+#stack__list figure{
+    max-width: 64px;
+    margin: auto 0;
+}
+
+#stack__list img{
+    max-inline-size: 100%;
+    block-size: auto;
+    inline-size: 100%;
+    filter: grayscale(100%);
+}
+
+#stack__list img:hover{
+    filter: none
+}
+
+#proyectos{
+    margin-top: 42px;
+}
+
+#proyectos h2{
+    color: var(--plata-palido);
+    font-size: 2.3rem;
+    padding-left: 42px;
+}
+
+#proyectos__list{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 21px;
+    gap: 10px;
+}
+
+#proyectos__list img{
+    max-inline-size: 100%;
+    block-size: auto;
+    inline-size: 100%;
+    filter: grayscale(100%);
+}
+
+#proyectos__list img:hover{
+    filter: none;
+}
+
+#proyectos__list article{
+    margin: 21px 0;
+}
+
+#proyectos__list h3{
+    color: var(--blanco-floral);
+    font-size: 1.3rem;
+}
+
+#proyectos__list p{
+    color: var(--plata-palido);
+    font-size: 1.1rem;
+}
+
+#proyectos__list a{
+    color: var(--flama);
+    text-decoration: none;
+}
+
+.proyectos__links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#sociales h2{
+    color: var(--plata-palido);
+    font-size: 2.3rem;
+    padding-left: 42px;
+}
+
+#sociales__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    gap: 10px;
+}
+
+#sociales figure{
+    max-width: 64px;
+    margin: auto 0;
+}
+
+#sociales img{
+    max-inline-size: 100%;
+    block-size: auto;
+    inline-size: 100%;
+    filter: grayscale(100%);
+}
+
+#sociales img:hover{
+    filter: none;
+}
+
 footer{
     background-color: var(--negro-mora);
     height: 80px;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 21px;
+}
+
+footer p{
+    font: 1.1rem;
+    color: var(--plata-palido);
 }
