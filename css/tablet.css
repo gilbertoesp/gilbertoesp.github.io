@@ -1,3 +1,10 @@
-.front__container{
-    justify-content: center;
+#whoami{
+    width: 42vw;
+    padding-bottom: 8vh;
+}
+
+#proyectos__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 21px;
 }
